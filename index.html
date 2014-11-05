@@ -18,7 +18,7 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
         <!-- Bootstrap Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/lumen/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/darkly/bootstrap.min.css">
 
         <!-- Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
@@ -42,198 +42,257 @@
               <span class="icon-bar"></span>
             </button>
             <img class="dog-nav" src="img/logo/ed.svg" onerror="this.onerror=null; this.src='img/logo/ed.png'" alt="Dog">
-            <a class="navbar-brand" href="#">Galeria ED - 2014</a>
+            <a class="navbar-brand" href="http://www.editoriaemdebate.ufsc.br/galeria2014">Galeria ED - 2014</a>
           </div>
           <div class="navbar-collapse collapse navbar-responsive-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#"><strong>Voltar</strong> ao site da Editoria Em Debate</a></li>
+              <li><a href="http://www.editoriaemdebate.ufsc.br"><strong>Voltar</strong> ao site da Editoria Em Debate</a></li>
             </ul>
           </div>
         </div>  
 
+        <!-- Abre container -->
         <div class="container">
 
+        <!-- Apresentacao Box -->
         <div class="apresentacao">
 
          <!-- Bootstrap Box -->
           <div class="jumbotron">
-            <h1>HTML5 Starter Theme <i class="fa fa-html5"></i> <i class="fa fa-css3"></i> <i class="fa fa-github-alt"></i></h1>
-              <span class="label label-warning">jQuery</span>
-              <span class="label label-primary">Bootstrap</span>
-              <span class="label label-success">FontAwesome</span>
-              <span class="label label-info">Bootstrap Tour</span>
-              <span class="label label-info">Bootstrap MultiSelect</span>
-              <span class="label label-info">Bootstrap Select</span>
-              <span class="label label-info">Bootstrap Slider range</span>
-              <span class="label label-info">Gallery Img</span>  
-            <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <p><a class="btn btn-primary btn-lg" id="tour">Learn more</a></p>
+            <h1>Editoria ED - Galeria 2014</h1>
+            <h2>Artista: <span class="class-p"><a target="_blank" href="https://www.facebook.com/igorgori?fref=ts"><span data-title="'Gôri'">'Gôri'</span></a></span></h2>
+              <span class="label label-warning">arte</span>
+              <span class="label label-primary">crítica</span>
+              <span class="label label-success">sociedade</span>
+              <span class="label label-info">cidade</span> 
+
+            <!-- teste
+              <div><p></p></div>
+
+            <div class="row">
+              <div class="col-md-4"></div>
+              <div class="col-md-4">
+                <h3> O artista que contribui com a galeria de imagens da ED neste ano é <span class="class-p"><a href="#"><span data-title="'Gôri'">'Gôri'</span></a></span> </h3>
+                <p class="text-center"><a class="btn btn-primary btn-lg" id="tour">Saiba mais</a></p>
+              </div>
+              <div class="col-md-4"></div>
+            </div>
+
+            <p>&nbsp</p>
+            -->
+
           </div>
 
-        </div>
+        </div><!-- fim apresentacao -->
 
+        <!-- Inicio -->
         <div class="bs-example">
+
+          <!-- Abas -->
             <ul class="nav nav-tabs">
                 <li class="active"><a data-toggle="tab" href="#tabGaleria">Galeria 2014</a></li>
                 <li><a data-toggle="tab" href="#tabArtista">O Artista</a></li>
                 <li><a data-toggle="tab" href="#tabEd">Sobre a ED</a></li>
             </ul>
+
+            <!-- Tab Content -->
             <div class="tab-content">
+
+              <!-- Tab1 -->
                 <div id="tabGaleria" class="tab-pane fade in active">
-                    <h3>Section A</h3>
-                    <!-- Gallery Img -->
-                    <div id="links">
-                        <a href="img/pics/a-inversao.jpg" title="A Inversão">
-                            <img src="img/pics/thumbnails/a-inversao.jpg" alt="A Inversão">
-                        </a>
-                        <a href="img/pics/banana.jpg" title="Banana">
-                            <img src="img/pics/thumbnails/banana.jpg" alt="Banana">
-                        </a>
-                    </div>
-                    <!-- Gallery Control -->
-                    <div id="blueimp-gallery" class="blueimp-gallery">
+                    <h3>Portfólio (Gôri)</h3>
+
+                    <!-- Gallery control -->
+                    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" data-use-bootstrap-modal="false" >
+                        <!-- The container for the modal slides -->
                         <div class="slides"></div>
+                        <!-- Controls for the borderless lightbox -->
                         <h3 class="title"></h3>
+                         <!-- The placeholder for the description label: -->
                         <p class="description"></p>
                         <a class="prev">‹</a>
                         <a class="next">›</a>
                         <a class="close">×</a>
                         <a class="play-pause"></a>
                         <ol class="indicator"></ol>
+                        <!-- The modal dialog, which will be used to wrap the lightbox content -->
+                        <div class="modal fade">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title"></h4>
+                                    </div>
+                                    <div class="modal-body next"></div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default pull-left prev">
+                                            <i class="glyphicon glyphicon-chevron-left"></i>
+                                            Previous
+                                        </button>
+                                        <button type="button" class="btn btn-warning next">
+                                            Next 
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                      
+                    <!-- Imgs -->
+                    <div id="links">
 
-                    <p>Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui. Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.</p>
+                        <!-- Abre ROW 3 colunas -->
+                        <div class="row">
 
-                </div>
+                          <!-- abre coluna 1 -->
+                          <div class="col-md-4">
 
+                            <!-- abre imagens -->
+                            <div class="imagem">
+
+                              <a href="img/pics/a-inversao.jpg" title="A Inversão" data-gallery="1" data-description="Gôri - A Inversão">
+                              <img src="img/pics/a-inversao.jpg" alt="Gôri - A Inversão" >
+                              </a>
+
+                              <a href="img/pics/falsa-justica.jpg" title="Falsa Justiça" data-gallery="4" data-description="Gôri - Falsa Justiça">
+                              <img src="img/pics/falsa-justica.jpg" alt="Gôri - Falsa Justiça" >
+                              </a>
+
+                              <a href="img/pics/apego.jpg" title="Apego" data-gallery="7" data-description="Gôri - Apego">
+                              <img src="img/pics/apego.jpg" alt="Gôri - Apego" >
+                              </a>
+
+                              <a href="img/pics/a-protecao.jpg" title="A Proteção" data-gallery="10" data-description="Gôri - A Proteção">
+                              <img src="img/pics/a-protecao.jpg" alt="Gôri - A Proteção" >
+                              </a>
+
+                              <a href="img/pics/as-pedras.jpg" title="As Pedras" data-gallery="13" data-description="Gôri - As Pedras">
+                              <img src="img/pics/as-pedras.jpg" alt="Gôri - As Pedras" >
+                              </a>
+
+                              <a href="img/pics/a-tentativa.jpg" title="A Tentativa" data-gallery="16" data-description="Gôri - A Tentativa">
+                              <img src="img/pics/a-tentativa.jpg" alt="Gôri - A Tentativa" >
+                              </a>
+
+                              <a href="img/pics/a-visao.jpg" title="A Visão" data-gallery="19" data-description="Gôri - A Visão">
+                              <img src="img/pics/a-visao.jpg" alt="Gôri - A Visão" >
+                              </a>
+
+                              <a href="img/pics/censura.jpg" title="Censura" data-gallery="22" data-description="Gôri - Censura">
+                              <img src="img/pics/censura.jpg" alt="Gôri - Censura" >
+                              </a>
+
+                            </div><!-- fecha imagens -->
+
+                          </div><!-- fecha coluna 1 -->
+
+                          <!-- abre coluna 2 -->
+                          <div class="col-md-4">
+
+                            <!-- abre imagens -->
+                            <div class="imagem">
+
+                              <a href="img/pics/interacao.jpg" title="Interação" data-gallery="2" data-description="Gôri - Interação">
+                              <img src="img/pics/interacao.jpg" alt="Gôri - Interacao" >
+                              </a>
+
+                              <a href="img/pics/de-onde-surgem os-muros.jpg" title="De onde surgem os muros" data-gallery="5" data-description="Gôri - De onde surgem os muros">
+                              <img src="img/pics/de-onde-surgem os-muros.jpg" alt="Gôri - De onde surgem os muros" >
+                              </a>
+
+                              <a href="img/pics/a-lenha.jpg" title="A Lenha" data-gallery="5" data-description="Gôri - A Lenha">
+                              <img src="img/pics/a-lenha.jpg" alt="Gôri - A Lenha" >
+                              </a>
+
+                              <a href="img/pics/felicidade.jpg" title="Felicidade" data-gallery="8" data-description="Gôri - Felicidade">
+                              <img src="img/pics/felicidade.jpg" alt="Gôri -Felicidade" >
+                              </a>
+
+                              <a href="img/pics/fritz-no-cachoeira.jpg" title="Fritz no Cachoeira" data-gallery="11" data-description="Gôri - Fritz no Cachoeira">
+                              <img src="img/pics/fritz-no-cachoeira.jpg" alt="Gôri - Fritz no Cachoeira" >
+                              </a>
+
+                              <a href="img/pics/guerreiro-1.jpg" title="Guerreiro 1" data-gallery="14" data-description="Gôri - Guerreiro 1">
+                              <img src="img/pics/guerreiro-1.jpg" alt="Gôri - Guerreiro 1" >
+                              </a>
+
+                              <a href="img/pics/guerreiro-2.jpg" title="Guerreiro 2" data-gallery="17" data-description="Gôri - Guerreiro 2">
+                              <img src="img/pics/guerreiro-2.jpg" alt="Gôri - Guerreiro 2" >
+                              </a>
+
+                              <a href="img/pics/historias.jpg" title="Histórias" data-gallery="20" data-description="Gôri - Histórias">
+                              <img src="img/pics/historias.jpg" alt="Gôri - Histórias" >
+                              </a>
+
+                            </div><!-- fecha imagens -->
+
+                          </div><!-- fecha coluna 2 -->
+
+                          <!-- abre coluna 3 -->
+                          <div class="col-md-4">
+
+                            <!-- abre imagens -->
+                            <div class="imagem">
+
+                              <a href="img/pics/construcao.jpg" title="Construção" data-gallery="3" data-description="Gôri - Construção">
+                              <img src="img/pics/construcao.jpg" alt="Gôri - Construção" >
+                              </a>
+
+                              <a href="img/pics/liberdade.jpg" title="Liberdade" data-gallery="6" data-description="Gôri - Liberdade">
+                              <img src="img/pics/liberdade.jpg" alt="Gôri - Liberdade" >
+                              </a>
+
+                              <a href="img/pics/naoobjeto.jpg" title="Não objeto" data-gallery="9" data-description="Gôri - Não objeto">
+                              <img src="img/pics/naoobjeto.jpg" alt="Gôri - Não objeto" >
+                              </a>
+
+                              <a href="img/pics/o-esconderijo.jpg" title="O esconderijo" data-gallery="12" data-description="Gôri - O esconderijo">
+                              <img src="img/pics/o-esconderijo.jpg" alt="Gôri - O esconderijo" >
+                              </a>
+
+                              <a href="img/pics/opiniao.jpg" title="Opinião" data-gallery="15" data-description="Gôri - Opinião">
+                              <img src="img/pics/opiniao.jpg" alt="Gôri - Opinião" >
+                              </a>
+
+                              <a href="img/pics/os-muros.jpg" title="Os muros" data-gallery="18" data-description="Gôri - Os muros">
+                              <img src="img/pics/os-muros.jpg" alt="Gôri - Os muros" >
+                              </a>
+
+                              <a href="img/pics/paradigma.jpg" title="Paradigma" data-gallery="21" data-description="Gôri - Paradigma">
+                              <img src="img/pics/paradigma.jpg" alt="Gôri - Paradigma" >
+                              </a>
+
+                              <a href="img/pics/preencha-me.jpg" title="Preencha-me" data-gallery="24" data-description="Gôri - Preencha-me">
+                              <img src="img/pics/preencha-me.jpg" alt="Gôri - Preencha-me" >
+                              </a>
+
+                            </div><!-- fecha imagens -->
+
+                          </div><!-- fecha coluna 3 -->
+                        
+                        </div><!-- fecha row 3 colunas -->
+
+                    </div><!-- fecha img -->
+
+                </div><!-- Fecha Tab1 -->
+
+                <!-- tab 2-->
                 <div id="tabArtista" class="tab-pane fade">
                     <h3>Section B</h3>
                     <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
-                </div>
+                </div><!-- fecha tab2 -->
+
+                <!-- tab3 -->
                 <div id="tabEd" class="tab-pane fade">
                     <h3>Dropdown 1</h3>
                     <p>WInteger convallis, nulla in sollicitudin placerat, ligula enim auctor lectus, in mollis diam dolor at lorem. Sed bibendum nibh sit amet dictum feugiat. Vivamus arcu sem, cursus a feugiat ut, iaculis at erat. Donec vehicula at ligula vitae venenatis. Sed nunc nulla, vehicula non porttitor in, pharetra et dolor. Fusce nec velit velit. Pellentesque consectetur eros.</p>
-                </div>
-            </div>
-        </div>
+                    <a href="https://www.facebook.com/igorgori?fref=ts" target="_blank"><i class="fa fa-github-square"></i></a>
+                </div><!-- fecha tab3 -->
 
-      </div>
-
-          <!-- Accorrddioonn-->
-        <div class="panel-group" id="accordion">
-
-          <div class="panel panel-default"><!-- 1 Accorrddioonn-->
-            <div class="panel-heading">
-              <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                  Take a tour Plugin
-                </a>
-              </h4>
-            </div>
-            <div id="collapseOne" class="panel-collapse collapse">
-              <div class="panel-body">
-                <!-- Bootstrap Alert -->
-                  <div class="bs-example">
-                      <div class="alert alert-success fade in" role="alert">
-                        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-                        <h1><span class="two">Oh nice!</span> <span class="one">And</span> that's cool?!</h1>
-                        <p>
-                          I don't know! I'm here to learn more about the boilerplates, frameworks, and good ways to do websites. My idea is make three custom starter themes. <br>
-                          1) For simple web page like this page. <br>
-                          2) For simple web page with tools like grunt and bower (and jekyll or yeoman). <br>
-                          3) For Wordpress theme. <br>
-                          This is because have people who like light boilerplates to small sites and projects. 
-                        </p>
-                        <p>
-                          <button type="button" class="btn btn-info" id="tour">Take a tour</button>
-                        </p>
-                      </div>
-                  </div>
-              </div>
-            </div>
-          </div><!-- fim 1 Accorrddioonn-->
-
-          <div class="panel panel-default"><!-- 2 Accorrddioonn-->
-            <div class="panel-heading">
-              <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                  Bootstrap 
-                </a>
-              </h4>
-            </div>
-            <div id="collapseTwo" class="panel-collapse collapse">
-              <div class="panel-body">
-                <!-- Bootstrap Box -->
-                  <div class="jumbotron">
-                    <h1>HTML5 Starter Theme <i class="fa fa-html5"></i> <i class="fa fa-css3"></i> <i class="fa fa-github-alt"></i></h1>
-                      <span class="label label-warning">jQuery</span>
-                      <span class="label label-primary">Bootstrap</span>
-                      <span class="label label-success">FontAwesome</span>
-                      <span class="label label-info">Bootstrap Tour</span>
-                      <span class="label label-info">Bootstrap MultiSelect</span>
-                      <span class="label label-info">Bootstrap Select</span>
-                      <span class="label label-info">Bootstrap Slider range</span>
-                      <span class="label label-info">Gallery Img</span>  
-                    <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                    <p><a class="btn btn-primary btn-lg" id="tour">Learn more</a></p>
-                  </div>
-              </div>
-            </div>
-          </div><!-- fim 2 Accorrddioonn-->
-
-          <div class="panel panel-default"><!-- 3 Accorrddioonn-->
-
-            <div class="panel-heading">
-              <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                  FontAwesome Bootstrap MultiSelect Bootstrap Select Bootstrap Slider range Gallery Img API Rest test
-                </a>
-              </h4>
-            </div>
-
-            <div id="collapseThree" class="panel-collapse collapse">
-
-              <div class="panel-body">
-
-                  <!-- Font Awesome-->
-                  <p>
-                          <a class="btn btn-lg btn-success" href="#">
-                          <i class="fa fa-flag fa-2x pull-left"></i> Font Awesome<br>Version 4.2.0
-                          </a>     
-                  </p>
-
-
-
-                  <!-- Gallery Img -->
-                  <div id="links">
-                      <a href="img/pics/banana.jpg" title="Banana">
-                          <img src="img/pics/thumbnails/banana.jpg" alt="Banana">
-                      </a>
-                  </div>
-
-                  <div id="blueimp-gallery" class="blueimp-gallery">
-                      <div class="slides"></div>
-                      <h3 class="title"></h3>
-                      <a class="prev">‹</a>
-                      <a class="next">›</a>
-                      <a class="close">×</a>
-                      <a class="play-pause"></a>
-                      <ol class="indicator"></ol>
-                  </div>
-
-                  <p>
-                  <h2>Thank You. <i class="fa fa-angellist"></i></h2>
-                  </p>
-
-
-              </div>
-
-            </div>
-
-          </div><!-- fim 3 Accorrddioonn-->
-
-        </div><!-- fim Accorrddioonn-->
-
+            </div><!-- fecha tab content -->
+        </div><!-- fecha inicio -->
+      </div><!-- fim container -->
 
         <!-- jQuery -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -249,7 +308,6 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -259,7 +317,6 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
-
 
     </body>
 </html>

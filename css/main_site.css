@@ -98,17 +98,19 @@ textarea {
    ========================================================================== */
 
 /*
- * ...
+ * gallery
  */
 
-
-
-
-
-
-
-
-
+.blueimp-gallery > .description {
+  position: absolute;
+  top: 40px;
+  left: 15px;
+  color: #fff;
+  display: none;
+}
+.blueimp-gallery-controls > .description {
+  display: block;
+}
 
 
 
