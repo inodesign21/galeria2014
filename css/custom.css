@@ -23,6 +23,10 @@
   color: #3b5191;
 }
 
+footer {
+  margin-top: 100px;
+}
+
 .class-p {
   text-align: justify;
   text-align-last: justify;
