@@ -1,26 +1,6 @@
 
  window.onload = function () {
 
-   // Ajustes do Multiseleção classe multiselect
-    $('.multiselect').multiselect({
-        numberDisplayed: 2,
-        buttonWidth: '172px',
-        maxHeight: 150,
-        nonSelectedText: 'Selecione',
-        enableFiltering: true,
-        filterBehavior: 'both',
-        enableCaseInsensitiveFiltering: false,
-        filterPlaceholder: 'Procure',
-        includeSelectAllOption: true,
-        selectAllText: 'Todos'
-    });
-
-  // Ajustes seleção bootstrap classe selectpicker
-    $('.selectpicker').selectpicker({
-      size: 4,
-      width: '172px'
-     });
-
 // Instance the tour
     var tour = new Tour({
       steps: [
@@ -64,10 +44,6 @@
     });
 
     
-    // Inicia slider range With JQuery
-    $("#ex2").slider({
-        tooltip: 'always'
-    });
 
     // Gallery
     document.getElementById('links').onclick = function (event) {
@@ -82,4 +58,8 @@
 };  
         
         
+// My app
+$(document).ready(function() {
+    $(".navbar").css('text-transform', 'uppercase');
+});
         
