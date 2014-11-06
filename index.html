@@ -26,8 +26,12 @@
         <!-- Gallery CSS  -->
         <link rel="stylesheet" href="css/blueimp-gallery.min.css">
 
+        <!-- scroll CSS  -->
+        <link rel="stylesheet" href="css/style-scroll.css" />
+
     </head>
     <body>
+      <a href="#top" id="toTop"></a>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -41,8 +45,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <img class="dog-nav" src="img/logo/ed.svg" onerror="this.onerror=null; this.src='img/logo/ed.png'" alt="Dog">
-            <a class="navbar-brand" href="http://www.editoriaemdebate.ufsc.br/galeria2014">Galeria ED - 2014</a>
+            <a class="navbar-brand" href="http://www.editoriaemdebate.ufsc.br/galeria2014"><i class="fa fa-camera"></i> Galeria ED - 2014</a>
           </div>
           <div class="navbar-collapse collapse navbar-responsive-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -335,7 +338,13 @@
 
             </div><!-- fecha tab content -->
         </div><!-- fecha inicio -->
-        <footer><span style="float:left">Projeto <a href="http://www.editoriaemdebate.ufsc.br"> Editoria Em Debate</a> - Galeria 2014 - Artista: <span class="class-p"><a target="_blank" href="https://www.facebook.com/igorgori?fref=ts"><span data-title="'Gôri'">'Gôri'</span></a></span></span>  <span style="float:right"><a href="http://www.editoriaemdebate.ufsc.br"><strong>Voltar</strong> ao site da Editoria Em Debate</a> | <a href="https://github.com/inodesign21/galeria2014" target="_blank"><i class="fa fa-github-square"></i></a></span></footer>
+
+        <footer>
+          <span style="float:left">
+            Projeto <a href="http://www.editoriaemdebate.ufsc.br"> Editoria Em Debate</a> - Galeria 2014 - Artista: <span class="class-p"><a target="_blank" href="https://www.facebook.com/igorgori?fref=ts"><span data-title="'Gôri'">'Gôri'</span></a></span></span>
+          <span style="float:right"><a href="http://www.editoriaemdebate.ufsc.br"><strong>Voltar</strong> ao site da Editoria Em Debate</a> | <a href="https://github.com/inodesign21/galeria2014" target="_blank"><i class="fa fa-github-square"></i></a></span>
+        </footer>
+     
       </div><!-- fim container -->
 
         <!-- jQuery -->
@@ -347,6 +356,9 @@
 
         <!-- Gallery JS -->
         <script src="js/vendor/blueimp-gallery.min.js"></script>
+
+        <!-- scroll JS -->
+        <script src="js/vendor/jquery.scrollToTop.min.js"></script>
 
          <!-- Root -->
         <script src="js/min/plugins.min.js"></script>

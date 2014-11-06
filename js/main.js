@@ -31,3 +31,8 @@ document.getElementById('links').onclick = function (event) {
 
 //Img responsive class of bootstrap
 $('#links img').addClass('img-responsive');
+
+
+$(function() {
+    $("#toTop").scrollToTop(1000);
+});
