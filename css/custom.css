@@ -17,6 +17,13 @@
   border-radius: 100px;
 }
 
+.p-sobre {
+  text-align: justify;
+  -moz-text-align-last: right;
+  text-align-last: left;
+  line-height: 1.5;
+}
+
 .fa-facebook-square {
   color: #3b5998;
 }
