@@ -1,0 +1,186 @@
+{
+    "path": {
+        "css/custom.sass": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/min/",
+                "output": "custom.min.css",
+                "imagePath": null,
+                "sourceComments": "map",
+                "outputStyle": "compressed"
+            },
+            "bracketstoix.prefs": {
+                "version": {
+                    "value": "2.6"
+                },
+                "commands": {
+                    "value": {
+                        "showinmenu": [
+                            "uppercase",
+                            "lowercase",
+                            "capitalize",
+                            "camelcase",
+                            "htmlencode",
+                            "htmldecode",
+                            "urlencode",
+                            "join",
+                            "split",
+                            "number",
+                            "reverse",
+                            "trimleading",
+                            "trimtrailing",
+                            "markdowntrimtrailing",
+                            "sortascending",
+                            "sortdescending",
+                            "removeduplicates",
+                            "removeemptylines",
+                            "unixtowin",
+                            "wintounix",
+                            "singleslashtodouble",
+                            "doubletosingleslash",
+                            "singlequotetodouble",
+                            "doubletosinglequote",
+                            "togglequote",
+                            "tabtospace",
+                            "spacetotab",
+                            "rgb-hex",
+                            "untag",
+                            "tag",
+                            "breaklineat",
+                            "loremipsum",
+                            "functionjsdoc",
+                            "declarejslintglobal",
+                            "extractortoix",
+                            "replacetoix",
+                            "openurl",
+                            "websearch",
+                            "browsefile",
+                            "recentfiles",
+                            "copyfilename",
+                            "copyfullname",
+                            "regnize",
+                            "htmlreport",
+                            "compiler",
+                            "commands",
+                            "commandsmapper",
+                            "options",
+                            "help",
+                            "about"
+                        ],
+                        "showinctxmenu": [],
+                        "hotkeys": {}
+                    }
+                },
+                "splitMarker": {
+                    "value": ","
+                },
+                "historySize": {
+                    "value": 20
+                },
+                "recentSize": {
+                    "value": 20
+                },
+                "showcxtedit": {
+                    "value": true
+                },
+                "recentFiles": {
+                    "files": [
+                        "C:/Users/Floripa/Google Drive/inO Design/Projetos/Editoria Em Debate/2014/galeria 2014/galeria2014/css/custom.sass",
+                        "C:/Users/Floripa/Google Drive/inO Design/Projetos/Editoria Em Debate/2014/galeria 2014/galeria2014/.brackets.json",
+                        "C:/Users/Floripa/Google Drive/inO Design/Projetos/Editoria Em Debate/2014/galeria 2014/galeria2014/css/min/custom.min.css",
+                        "C:/Users/Floripa/Google Drive/inO Design/Projetos/Editoria Em Debate/2014/galeria 2014/galeria2014/css/custom.css",
+                        "C:/Users/Floripa/Google Drive/inO Design/Projetos/Editoria Em Debate/2014/galeria 2014/galeria2014/css/.brackets.json",
+                        "C:/Users/Floripa/Google Drive/inO Design/Projetos/Editoria Em Debate/2014/galeria 2014/galeria2014/css/Sem título-1",
+                        "C:/Users/Floripa/Google Drive/inO Design/Projetos/Editoria Em Debate/2014/galeria 2014/galeria2014/css/custom.css.map",
+                        "C:/Users/Floripa/Google Drive/inO Design/Projetos/Editoria Em Debate/2014/galeria 2014/galeria2014/prepros.cfg",
+                        "C:/Users/Floripa/Google Drive/inO Design/Projetos/Editoria Em Debate/2014/galeria 2014/galeria2014/index.html",
+                        "C:/Users/Floripa/Google Drive/inO Design/Projetos/Editoria Em Debate/Website ED/site estatico/novo site ED/index.html",
+                        "C:/Users/Floripa/Google Drive/inO Design/Projetos/Editoria Em Debate/Website ED/site estatico/novo site ED/css/css.sass",
+                        "C:/Users/Floripa/Google Drive/inO Design/Projetos/Editoria Em Debate/Website ED/site estatico/novo site ED/css/min/css.min.css",
+                        "C:/Users/Floripa/Google Drive/inO Design/Projetos/Editoria Em Debate/Website ED/site estatico/novo site ED/prepros.cfg"
+                    ]
+                },
+                "startNum": {
+                    "value": 1
+                },
+                "numSep": {
+                    "value": ".\\$",
+                    "history": []
+                },
+                "tabSize": {
+                    "value": 2
+                },
+                "findre": {
+                    "value": "",
+                    "history": []
+                },
+                "find": {
+                    "value": "",
+                    "history": []
+                },
+                "replace": {
+                    "value": "",
+                    "history": []
+                },
+                "startValue": {
+                    "value": ""
+                },
+                "stepValue": {
+                    "value": ""
+                },
+                "iswordsonly": {
+                    "value": false
+                },
+                "isregexpr": {
+                    "value": true
+                },
+                "isignorecase": {
+                    "value": false
+                },
+                "isimultiline": {
+                    "value": false
+                },
+                "isall": {
+                    "value": true
+                },
+                "isselonly": {
+                    "value": true
+                },
+                "webSearch": {
+                    "value": "https://www.google.com/search?q="
+                },
+                "js6": {
+                    "value": "traceur --out \"{{out}}\" --script \"{{in}}\"",
+                    "fields": {
+                        "autosave": {
+                            "value": false
+                        }
+                    }
+                },
+                "scss": {
+                    "value": "sass --sourcemap \"{{in}}\" \"{{out}}\"",
+                    "fields": {
+                        "autosave": {
+                            "value": false
+                        }
+                    }
+                },
+                "linrparagraphs": {
+                    "value": "1"
+                },
+                "limaxcharsperline": {
+                    "value": "0"
+                },
+                "lihtmlparawrap": {
+                    "value": ""
+                },
+                "maxcharsperline": {
+                    "value": "80"
+                },
+                "tobreakwords": {
+                    "value": false
+                }
+            }
+        }
+    }
+}
