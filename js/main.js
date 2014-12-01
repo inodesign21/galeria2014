@@ -34,5 +34,5 @@ $('#links img').addClass('img-responsive');
 
 //scroll to top
 $(function() {
-    $("#toTop").scrollToTop(1000);
+    $("#toTop").scrollToTop(10000);
 });

@@ -1,0 +1,8 @@
+{
+	"project": "js",
+	"inputs": ["main.js"],
+	"output": "/js/min/main.min.js",
+	"generateMap": true,
+	"mangle": true,
+	"isolate": false
+}
